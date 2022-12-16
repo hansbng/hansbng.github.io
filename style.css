@@ -1,0 +1,66 @@
+@font-face {
+  font-family: "Archivo";
+  src: url("fonts/Archivo/static/Archivo/Archivo-Medium.ttf");
+  font-family: "DotGothic16";
+  src: url("fonts/DotGothic16/DotGothic16-Regular.ttf")
+}
+
+* {
+  box-sizing: border-box;
+  color: #202020;
+}
+
+
+.main-header {
+  background-color: #164f27;
+  background-size: cover;
+}
+
+.main-header h1 {
+  font-family: "DotGothic16";
+  color: white;
+}
+
+.body h2,h3,h4,h5 {
+  font-family: "Archivo";
+  color:rgb(15, 15, 15);
+}
+
+.main-text p {
+  font-family: "Archivo";
+  font-size:16px;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+.nav ul {
+  margin: 0;
+}
+
+.nav li {
+  display: inline;
+  font-family: "DotGothic16";
+}
+
+.nav a {
+  display: inline-block;
+  padding: .8em;
+  color: white;
+  text-decoration: none;
+}
+
+.nav a:hover {
+  background-color: #4a885d;
+  color: rgb(15, 15, 15);
+}
+
+
+.footer li{
+  width: 100%;
+  display: inline;
+  padding: .5em;
+}
+
